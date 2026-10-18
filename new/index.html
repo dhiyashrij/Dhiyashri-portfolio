@@ -1,0 +1,1129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dhiyashri J | ECE Student & Aspiring Embedded Systems Engineer</title>
+  <meta name="description" content="Personal portfolio of Dhiyashri J, a first-year Electronics and Communication Engineering student at Chennai Institute of Technology (CIT) exploring embedded systems, intelligent hardware, and circuit design.">
+  <meta name="keywords" content="Dhiyashri J, Electronics and Communication Engineering, CIT Chennai, Embedded Systems, Arduino, Microcontrollers, Circuit Design, Velammal Vidhyashram">
+  <meta name="author" content="Dhiyashri J">
+
+  <!-- Google Fonts Preconnect & Stylesheets -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;700&family=Space+Grotesk:wght@500;600;700;800&display=swap" rel="stylesheet">
+
+  <!-- Main Stylesheet -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- Ambient Background Lighting -->
+  <div class="ambient-glow glow-1" aria-hidden="true"></div>
+  <div class="ambient-glow glow-2" aria-hidden="true"></div>
+  <div class="ambient-glow glow-3" aria-hidden="true"></div>
+
+  <!-- ==========================================================================
+       NAVIGATION BAR
+       ========================================================================== -->
+  <header class="navbar" id="navbar">
+    <div class="container nav-container">
+      <a href="#hero" class="nav-logo" aria-label="Dhiyashri J Home">
+        <div class="logo-mark">
+          <!-- Stylized Microchip / Integrated Circuit Icon -->
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <rect x="4" y="4" width="16" height="16" rx="2"></rect>
+            <rect x="9" y="9" width="6" height="6"></rect>
+            <path d="M9 1v3M15 1v3M9 20v3M15 20v3M20 9h3M20 14h3M1 9h3M1 14h3"></path>
+          </svg>
+        </div>
+        <div class="logo-text">
+          <span class="logo-title">DHIYASHRI J</span>
+          <span class="logo-subtitle">ECE // CIT CHENNAI</span>
+        </div>
+      </a>
+
+      <!-- Desktop Nav Menu -->
+      <nav aria-label="Primary Navigation">
+        <ul class="nav-menu">
+          <li><a href="#hero" class="nav-link active">Home</a></li>
+          <li><a href="#about" class="nav-link">About</a></li>
+          <li><a href="#skills" class="nav-link">Skills</a></li>
+          <li><a href="#projects" class="nav-link">Projects</a></li>
+          <li><a href="#education" class="nav-link">Education</a></li>
+          <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
+
+      <!-- Desktop CTA & Mobile Toggle -->
+      <div class="nav-actions">
+        <a href="#contact" class="btn btn-primary btn-sm">Let's Connect</a>
+        <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation menu" aria-expanded="false">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Mobile Navigation Drawer -->
+  <div class="mobile-nav-backdrop" id="mobileBackdrop" aria-hidden="true"></div>
+  <div class="mobile-nav" id="mobileNav">
+    <ul class="mobile-links">
+      <li><a href="#hero" class="mobile-link">01. Home <span>&rarr;</span></a></li>
+      <li><a href="#about" class="mobile-link">02. About <span>&rarr;</span></a></li>
+      <li><a href="#skills" class="mobile-link">03. Skills <span>&rarr;</span></a></li>
+      <li><a href="#projects" class="mobile-link">04. Projects <span>&rarr;</span></a></li>
+      <li><a href="#education" class="mobile-link">05. Education <span>&rarr;</span></a></li>
+      <li><a href="#contact" class="mobile-link">06. Contact <span>&rarr;</span></a></li>
+    </ul>
+    <div>
+      <a href="#contact" class="btn btn-primary" style="width: 100%;">Get in Touch</a>
+    </div>
+  </div>
+
+  <main>
+    <!-- ==========================================================================
+         HERO SECTION
+         ========================================================================== -->
+    <section class="hero" id="hero">
+      <div class="container hero-grid">
+        <!-- Hero Text Content -->
+        <div class="hero-content">
+          <div class="hero-badge">
+            <span class="pulse-dot" aria-hidden="true"></span>
+            <span>ECE Student | Learning • Building • Innovating</span>
+          </div>
+
+          <h1 class="hero-headline">
+            Building Tomorrow's <br>
+            <span class="gradient-text">Technology</span>, One <br>
+            <span class="gradient-text-violet">Circuit</span> at a Time.
+          </h1>
+
+          <p class="hero-subtitle">
+            I'm <strong>Dhiyashri J</strong>, an Electronics and Communication Engineering student at <strong>Chennai Institute of Technology</strong> exploring embedded systems, intelligent hardware, and the technology shaping our future.
+          </p>
+
+          <div class="hero-cta">
+            <a href="#projects" class="btn btn-primary btn-lg">
+              <span>Explore My Work</span>
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                <line x1="7" y1="17" x2="17" y2="7"></line>
+                <polyline points="7 7 17 7 17 17"></polyline>
+              </svg>
+            </a>
+            <a href="#contact" class="btn btn-secondary btn-lg">Contact Me</a>
+          </div>
+
+          <div class="hero-meta">
+            <div class="meta-item">
+              <span class="meta-label">Academic Base</span>
+              <span class="meta-value">CIT Chennai</span>
+            </div>
+            <div class="meta-item">
+              <span class="meta-label">Primary Interest</span>
+              <span class="meta-value">Embedded Systems</span>
+            </div>
+            <div class="meta-item">
+              <span class="meta-label">Current Academic Level</span>
+              <span class="meta-value">First-Year B.E. ECE</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Hero Electronics Visual: Interactive Circuit & Microchip Canvas -->
+        <div class="hero-visual" aria-hidden="true">
+          <div class="circuit-frame">
+            <!-- Canvas for Animated Data Bus Pulses -->
+            <canvas id="circuitCanvas" class="circuit-canvas"></canvas>
+
+            <!-- Floating Circuit Diagnostic Badges -->
+            <div class="diag-badge diag-badge-top">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"></path>
+              </svg>
+              <span>SYS_CLK: 16.0 MHz ACTIVE</span>
+            </div>
+
+            <!-- Central Microchip Component -->
+            <div class="microchip-container">
+              <div class="chip-notch"></div>
+              
+              <!-- IC Pins (Left, Right, Top, Bottom) -->
+              <div class="chip-pins-left">
+                <span class="pin"></span><span class="pin"></span><span class="pin"></span><span class="pin"></span>
+                <span class="pin"></span><span class="pin"></span><span class="pin"></span><span class="pin"></span>
+              </div>
+              <div class="chip-pins-right">
+                <span class="pin"></span><span class="pin"></span><span class="pin"></span><span class="pin"></span>
+                <span class="pin"></span><span class="pin"></span><span class="pin"></span><span class="pin"></span>
+              </div>
+              <div class="chip-pins-top">
+                <span class="pin"></span><span class="pin"></span><span class="pin"></span><span class="pin"></span>
+                <span class="pin"></span><span class="pin"></span><span class="pin"></span><span class="pin"></span>
+              </div>
+              <div class="chip-pins-bottom">
+                <span class="pin"></span><span class="pin"></span><span class="pin"></span><span class="pin"></span>
+                <span class="pin"></span><span class="pin"></span><span class="pin"></span><span class="pin"></span>
+              </div>
+
+              <span class="chip-brand">MCU-CORE</span>
+              <span class="chip-model">ATMEGA-ARCH // v1.0</span>
+
+              <div class="chip-core-stats">
+                <span class="core-pill">GPIO: 14</span>
+                <span class="core-pill">ADC: 10-BIT</span>
+                <span class="core-pill">PWM</span>
+              </div>
+
+              <div class="chip-activity">
+                <div class="chip-activity-bar"></div>
+              </div>
+            </div>
+
+            <div class="diag-badge diag-badge-bottom">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <circle cx="12" cy="12" r="10"></circle>
+                <path d="M12 6v6l4 2"></path>
+              </svg>
+              <span>FIRMWARE: C / C++ READY</span>
+            </div>
+
+            <!-- Glowing Nodes -->
+            <div class="circuit-node node-1"></div>
+            <div class="circuit-node node-2"></div>
+            <div class="circuit-node node-3"></div>
+            <div class="circuit-node node-4"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         ABOUT ME SECTION
+         ========================================================================== -->
+    <section class="about-section" id="about">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">About Me</span>
+          <h2 class="section-title">
+            Fusing Engineering Curiosity with <span class="gradient-text">Physical Hardware</span>
+          </h2>
+          <p class="section-subtitle">
+            An enthusiastic journey from foundational school science into the dynamic discipline of Electronics & Communication Engineering.
+          </p>
+        </div>
+
+        <div class="about-grid">
+          <!-- Left Column: Biography Narrative -->
+          <div class="about-narrative">
+            <p class="lead-paragraph">
+              I am a first-year undergraduate student pursuing my <strong>Bachelor of Engineering in Electronics and Communication Engineering</strong> at <strong>Chennai Institute of Technology (CIT)</strong>, having completed my schooling at <strong>Velammal Vidhyashram</strong>.
+            </p>
+            <p>
+              My fascination lies at the intersection where logical software instructions manifest as physical electrical voltages. I am captivated by how silicon microchips, microcontrollers, and electronic circuits can sense, compute, and physically interact with our everyday environment.
+            </p>
+            <p>
+              Rather than just writing abstract code on a screen, I love breadboarding circuits, debugging sensor signals with multimeters, and understanding how electronic components communicate over protocols like I2C and UART. As a first-year student, I am dedicated to building rock-solid foundations in C programming, mathematics, circuit analysis, and microcontrollers.
+            </p>
+
+            <!-- Future Goals Card -->
+            <div class="aspirations-box">
+              <div class="aspirations-header">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <circle cx="12" cy="12" r="10"></circle>
+                  <polygon points="12 8 8 12 12 16 16 12 12 8"></polygon>
+                </svg>
+                <span>Long-Term Vision & Engineering Aspirations</span>
+              </div>
+              <ul class="aspirations-list">
+                <li>
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="9 18 15 12 9 6"></polyline></svg>
+                  <span>Pursue advanced higher studies abroad in Embedded Systems & Semiconductor Architecture.</span>
+                </li>
+                <li>
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="9 18 15 12 9 6"></polyline></svg>
+                  <span>Participate in international academic research internships and hardware innovation symposiums.</span>
+                </li>
+                <li>
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="9 18 15 12 9 6"></polyline></svg>
+                  <span>Design meaningful, production-reliable hardware solutions for industrial automation and edge computing.</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- Right Column: Three Core Qualities -->
+          <div class="qualities-stack">
+            <!-- Quality 1 -->
+            <div class="glass-card quality-card">
+              <div class="quality-icon">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"></path>
+                  <path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"></path>
+                </svg>
+              </div>
+              <div>
+                <h3 class="quality-title">Curious Learner</h3>
+                <p class="quality-desc">
+                  Constantly exploring how low-level hardware interacts with code. I dive deep into datasheets, microcontroller architectures, and foundational C and Python programming with eager curiosity.
+                </p>
+              </div>
+            </div>
+
+            <!-- Quality 2 -->
+            <div class="glass-card quality-card">
+              <div class="quality-icon">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <rect x="4" y="4" width="16" height="16" rx="2"></rect>
+                  <rect x="9" y="9" width="6" height="6"></rect>
+                  <line x1="9" y1="1" x2="9" y2="4"></line>
+                  <line x1="15" y1="1" x2="15" y2="4"></line>
+                  <line x1="9" y1="20" x2="9" y2="23"></line>
+                  <line x1="15" y1="20" x2="15" y2="23"></line>
+                  <line x1="20" y1="9" x2="23" y2="9"></line>
+                  <line x1="20" y1="14" x2="23" y2="14"></line>
+                  <line x1="1" y1="9" x2="4" y2="9"></line>
+                  <line x1="1" y1="14" x2="4" y2="14"></line>
+                </svg>
+              </div>
+              <div>
+                <h3 class="quality-title">Hardware-Oriented Thinker</h3>
+                <p class="quality-desc">
+                  Drawn to tangible electronics: breadboard prototyping, sensor interfacing, and timing diagrams. I prioritize understanding circuit constraints and electrical integrity over high-level abstractions.
+                </p>
+              </div>
+            </div>
+
+            <!-- Quality 3 -->
+            <div class="glass-card quality-card">
+              <div class="quality-icon">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"></path>
+                </svg>
+              </div>
+              <div>
+                <h3 class="quality-title">Consistent Problem Solver</h3>
+                <p class="quality-desc">
+                  Hardware debugging requires patience and rigorous method. Whether resolving motor driver noise or diagnosing loose jumpers, I isolate variables methodically to reach dependable solutions.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Academic Snapshot Mini Bar -->
+        <div class="academic-snapshot-bar">
+          <div class="glass-card snapshot-card">
+            <svg class="snapshot-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M22 10v6M2 10l10-5 10 5-10 5z"></path>
+              <path d="M6 12v5c3 3 9 3 12 0v-5"></path>
+            </svg>
+            <span class="snapshot-label">Institution</span>
+            <div class="snapshot-value">Chennai Institute of Technology</div>
+            <div class="snapshot-detail">B.E. in ECE (2026 Batch)</div>
+          </div>
+
+          <div class="glass-card snapshot-card">
+            <svg class="snapshot-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"></path>
+              <path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"></path>
+            </svg>
+            <span class="snapshot-label">Schooling</span>
+            <div class="snapshot-value">Velammal Vidhyashram</div>
+            <div class="snapshot-detail">Senior Secondary Foundations</div>
+          </div>
+
+          <div class="glass-card snapshot-card">
+            <svg class="snapshot-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <circle cx="12" cy="12" r="10"></circle>
+              <polygon points="16.24 7.76 14.12 14.12 7.76 16.24 9.88 9.88 16.24 7.76"></polygon>
+            </svg>
+            <span class="snapshot-label">Location</span>
+            <div class="snapshot-value">Chennai, India</div>
+            <div class="snapshot-detail">Hub of Industrial Engineering</div>
+          </div>
+
+          <div class="glass-card snapshot-card">
+            <svg class="snapshot-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <line x1="12" y1="1" x2="12" y2="23"></line>
+              <path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"></path>
+            </svg>
+            <span class="snapshot-label">Future Aspiration</span>
+            <div class="snapshot-value">Semiconductors & Research</div>
+            <div class="snapshot-detail">Higher Studies Abroad</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         HARDWARE LAB: INTERACTIVE PINOUT EXPLORER
+         ========================================================================== -->
+    <section class="lab-section" id="hardware-lab">
+      <div class="container">
+        <div class="lab-container">
+          <div class="lab-info">
+            <div class="lab-feature-badge">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <circle cx="12" cy="12" r="3"></circle>
+                <path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1 0 2.83 2 2 0 0 1-2.83 0l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-2 2 2 2 0 0 1-2-2v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83 0 2 2 0 0 1 0-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1-2-2 2 2 0 0 1 2-2h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 0-2.83 2 2 0 0 1 2.83 0l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 2-2 2 2 0 0 1 2 2v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 0 2 2 0 0 1 0 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 2 2 2 2 0 0 1-2 2h-.09a1.65 1.65 0 0 0-1.51 1z"></path>
+              </svg>
+              <span>Interactive Hardware Sandbox</span>
+            </div>
+            <h2 class="section-title">
+              Microcontroller <br><span class="gradient-text">Pinout & Architecture</span>
+            </h2>
+            <p>
+              Hardware engineering begins with understanding registers, timers, and input/output characteristics. Click through common ATmega328P pins below to explore how I configure them for motor drivers, analog sensors, and communication buses.
+            </p>
+          </div>
+
+          <!-- Interactive Sandbox Box -->
+          <div class="pinout-sandbox">
+            <div class="sandbox-header">
+              <span class="sandbox-title">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <polyline points="22 12 18 12 15 21 9 3 6 12 2 12"></polyline>
+                </svg>
+                ATmega328P Pin Register Visualizer
+              </span>
+              <div class="sandbox-legend">
+                <span class="legend-item"><span class="legend-dot dot-pwm"></span> PWM</span>
+                <span class="legend-item"><span class="legend-dot dot-analog"></span> ADC</span>
+                <span class="legend-item"><span class="legend-dot dot-comm"></span> I2C/SPI</span>
+              </div>
+            </div>
+
+            <!-- Pin Interactive Buttons Grid -->
+            <div class="pins-grid-display">
+              <button class="interactive-pin active" data-pin="D9" type="button">
+                <div class="pin-label-left">
+                  <span class="pin-code">Pin D9</span>
+                  <span class="pin-role-tag">PWM</span>
+                </div>
+                <span class="pin-status-glow"></span>
+              </button>
+
+              <button class="interactive-pin" data-pin="A0" type="button">
+                <div class="pin-label-left">
+                  <span class="pin-code">Pin A0</span>
+                  <span class="pin-role-tag">ADC</span>
+                </div>
+                <span class="pin-status-glow"></span>
+              </button>
+
+              <button class="interactive-pin" data-pin="D2" type="button">
+                <div class="pin-label-left">
+                  <span class="pin-code">Pin D2</span>
+                  <span class="pin-role-tag">INT0</span>
+                </div>
+                <span class="pin-status-glow"></span>
+              </button>
+
+              <button class="interactive-pin" data-pin="A4" type="button">
+                <div class="pin-label-left">
+                  <span class="pin-code">Pin A4</span>
+                  <span class="pin-role-tag">I2C SDA</span>
+                </div>
+                <span class="pin-status-glow"></span>
+              </button>
+
+              <button class="interactive-pin" data-pin="D13" type="button">
+                <div class="pin-label-left">
+                  <span class="pin-code">Pin D13</span>
+                  <span class="pin-role-tag">SCK/LED</span>
+                </div>
+                <span class="pin-status-glow"></span>
+              </button>
+
+              <button class="interactive-pin" data-pin="5V" type="button">
+                <div class="pin-label-left">
+                  <span class="pin-code">Rail 5V</span>
+                  <span class="pin-role-tag">POWER</span>
+                </div>
+                <span class="pin-status-glow"></span>
+              </button>
+            </div>
+
+            <!-- Dynamic Readout Details -->
+            <div class="pin-readout-box">
+              <div class="readout-tag" id="readoutTag">// ACTIVE PIN: D9 [Pulse Width Modulation]</div>
+              <h4 id="readoutTitle" style="font-size: 1rem; margin-bottom: 0.35rem; color: #fff;">Digital Pin 9 (PWM / Timer1 Output)</h4>
+              <p class="readout-text" id="readoutText">
+                Configured for analogWrite(). Used in my Obstacle-Avoidance RC Car project to modulate PWM duty cycle into the L298N motor driver for progressive acceleration and smooth trajectory turns without wheel skid.
+              </p>
+              <div style="font-family: var(--font-mono); font-size: 0.72rem; color: var(--accent-cyan); margin-top: 0.5rem;" id="readoutTech">
+                Specs / Architecture: 8-bit timer register OCR1A / 490Hz default PWM
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         TECHNICAL SKILLS SECTION
+         ========================================================================== -->
+    <section class="skills-section" id="skills">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Technical Competencies</span>
+          <h2 class="section-title">
+            Foundational Skills & <span class="gradient-text">Learning Areas</span>
+          </h2>
+          <p class="section-subtitle">
+            An authentic, transparent view of my technical competencies. These represent my active development areas through laboratory coursework, self-study, and hands-on experiments.
+          </p>
+        </div>
+
+        <div class="skills-disclaimer">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <circle cx="12" cy="12" r="10"></circle>
+            <line x1="12" y1="16" x2="12" y2="12"></line>
+            <line x1="12" y1="8" x2="12.01" y2="8"></line>
+          </svg>
+          <span>Honest Engineering Practice: Categorized by active learning and prototyping progress rather than arbitrary percentage ratings.</span>
+        </div>
+
+        <div class="skills-grid">
+          <!-- Category 1: Programming & Software -->
+          <div class="glass-card skill-card">
+            <div class="skill-card-header">
+              <div class="skill-cat-icon">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <polyline points="16 18 22 12 16 6"></polyline>
+                  <polyline points="8 6 2 12 8 18"></polyline>
+                </svg>
+              </div>
+              <div>
+                <h3 class="skill-cat-title">Programming</h3>
+                <span class="skill-cat-subtitle">Languages & Core Logic</span>
+              </div>
+            </div>
+
+            <ul class="skill-items-list">
+              <li class="skill-item">
+                <div class="skill-item-top">
+                  <span class="skill-name"><span class="skill-bullet"></span> C Programming</span>
+                  <span class="skill-stage-tag">Core Lab Focus</span>
+                </div>
+                <p class="skill-desc">Memory management, pointers, control flow, and embedded syntax logic.</p>
+              </li>
+
+              <li class="skill-item">
+                <div class="skill-item-top">
+                  <span class="skill-name"><span class="skill-bullet"></span> Python</span>
+                  <span class="skill-stage-tag">Scripting & Learning</span>
+                </div>
+                <p class="skill-desc">Algorithmic problem solving, automated testing, and basic data processing.</p>
+              </li>
+
+              <li class="skill-item">
+                <div class="skill-item-top">
+                  <span class="skill-name"><span class="skill-bullet"></span> HTML5 & CSS3</span>
+                  <span class="skill-stage-tag">UI Foundations</span>
+                </div>
+                <p class="skill-desc">Responsive layout architecture, modern CSS custom properties, and semantic design.</p>
+              </li>
+
+              <li class="skill-item">
+                <div class="skill-item-top">
+                  <span class="skill-name"><span class="skill-bullet"></span> Vanilla JavaScript</span>
+                  <span class="skill-stage-tag">Interactive Logic</span>
+                </div>
+                <p class="skill-desc">DOM event orchestration, asynchronous handling, and interactive visual elements.</p>
+              </li>
+            </ul>
+          </div>
+
+          <!-- Category 2: Electronics & Hardware -->
+          <div class="glass-card skill-card">
+            <div class="skill-card-header">
+              <div class="skill-cat-icon">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <rect x="2" y="2" width="20" height="8" rx="2" ry="2"></rect>
+                  <rect x="2" y="14" width="20" height="8" rx="2" ry="2"></rect>
+                  <line x1="6" y1="6" x2="6.01" y2="6"></line>
+                  <line x1="6" y1="18" x2="6.01" y2="18"></line>
+                </svg>
+              </div>
+              <div>
+                <h3 class="skill-cat-title">Hardware & Circuits</h3>
+                <span class="skill-cat-subtitle">Embedded Systems</span>
+              </div>
+            </div>
+
+            <ul class="skill-items-list">
+              <li class="skill-item">
+                <div class="skill-item-top">
+                  <span class="skill-name"><span class="skill-bullet"></span> Arduino Fundamentals</span>
+                  <span class="skill-stage-tag">Active Prototyping</span>
+                </div>
+                <p class="skill-desc">ATmega board architectures, GPIO configuration, analog inputs, and PWM timers.</p>
+              </li>
+
+              <li class="skill-item">
+                <div class="skill-item-top">
+                  <span class="skill-name"><span class="skill-bullet"></span> Sensors & Actuators</span>
+                  <span class="skill-stage-tag">Interfacing</span>
+                </div>
+                <p class="skill-desc">Ultrasonic (HC-SR04), IR arrays, DHT sensors, servos, and L298N motor drivers.</p>
+              </li>
+
+              <li class="skill-item">
+                <div class="skill-item-top">
+                  <span class="skill-name"><span class="skill-bullet"></span> Circuit Theory Fundamentals</span>
+                  <span class="skill-stage-tag">Academic Coursework</span>
+                </div>
+                <p class="skill-desc">Ohm's & Kirchhoff's laws, RC circuit time constants, and diode/transistor fundamentals.</p>
+              </li>
+
+              <li class="skill-item">
+                <div class="skill-item-top">
+                  <span class="skill-name"><span class="skill-bullet"></span> Embedded Systems Concepts</span>
+                  <span class="skill-stage-tag">Foundations</span>
+                </div>
+                <p class="skill-desc">Microcontroller peripherals, interrupts, and serial protocols (UART, I2C).</p>
+              </li>
+            </ul>
+          </div>
+
+          <!-- Category 3: Tools & Simulation -->
+          <div class="glass-card skill-card">
+            <div class="skill-card-header">
+              <div class="skill-cat-icon">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"></path>
+                </svg>
+              </div>
+              <div>
+                <h3 class="skill-cat-title">Tools & Workflow</h3>
+                <span class="skill-cat-subtitle">Simulation & Development</span>
+              </div>
+            </div>
+
+            <ul class="skill-items-list">
+              <li class="skill-item">
+                <div class="skill-item-top">
+                  <span class="skill-name"><span class="skill-bullet"></span> VS Code</span>
+                  <span class="skill-stage-tag">Primary IDE</span>
+                </div>
+                <p class="skill-desc">Daily development environment, C/C++ compiler extensions, and workspace tooling.</p>
+              </li>
+
+              <li class="skill-item">
+                <div class="skill-item-top">
+                  <span class="skill-name"><span class="skill-bullet"></span> Git & GitHub</span>
+                  <span class="skill-stage-tag">Version Control</span>
+                </div>
+                <p class="skill-desc">Managing project repositories, branch workflows, and engineering code documentation.</p>
+              </li>
+
+              <li class="skill-item">
+                <div class="skill-item-top">
+                  <span class="skill-name"><span class="skill-bullet"></span> Simulation Tools</span>
+                  <span class="skill-stage-tag">Circuit Validation</span>
+                </div>
+                <p class="skill-desc">Tinkercad Circuits and Proteus/sandbox tools for virtual breadboarding before solder.</p>
+              </li>
+
+              <li class="skill-item">
+                <div class="skill-item-top">
+                  <span class="skill-name"><span class="skill-bullet"></span> Arduino IDE & Serial</span>
+                  <span class="skill-stage-tag">Flashing & Debug</span>
+                </div>
+                <p class="skill-desc">Firmware flashing, baud rate synchronization, and real-time serial monitor telemetry.</p>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         FEATURED PROJECTS SECTION
+         ========================================================================== -->
+    <section class="projects-section" id="projects">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Featured Projects</span>
+          <h2 class="section-title">
+            Hands-on Engineering & <span class="gradient-text">Hardware Prototypes</span>
+          </h2>
+          <p class="section-subtitle">
+            Authentic academic and personal engineering builds developed to bridge classroom electrical theory with physical microcontrollers.
+          </p>
+        </div>
+
+        <!-- Filter Buttons -->
+        <div class="projects-filter-bar">
+          <button class="filter-btn active" data-filter="all">All Builds (4)</button>
+          <button class="filter-btn" data-filter="embedded">Embedded & Robotics (2)</button>
+          <button class="filter-btn" data-filter="sensors">Sensors & Instruments (1)</button>
+          <button class="filter-btn" data-filter="circuits">Circuits & Logic (1)</button>
+        </div>
+
+        <div class="projects-grid">
+          <!-- Project 1: Obstacle-Avoidance RC Car -->
+          <div class="glass-card project-card" data-category="embedded">
+            <div class="project-top">
+              <span class="project-category-tag">Embedded Robotics</span>
+              <div class="project-status-badge">
+                <span class="status-indicator-dot"></span>
+                <span>Hardware Prototype</span>
+              </div>
+            </div>
+
+            <h3 class="project-title">Obstacle-Avoidance Autonomous RC Vehicle</h3>
+            <p class="project-desc">
+              An Arduino-based autonomous robotic chassis engineered with an HC-SR04 ultrasonic sensor and an L298N dual H-bridge motor driver. It continuously calculates forward obstacle clearance and performs directional trajectory pivots when safe thresholds are breached.
+            </p>
+
+            <div class="project-tech-wrapper">
+              <div class="tech-label">Hardware & Technologies Used:</div>
+              <div class="project-tech-tags">
+                <span class="tech-tag hardware-tag">Arduino Uno</span>
+                <span class="tech-tag hardware-tag">HC-SR04 Ultrasonic</span>
+                <span class="tech-tag hardware-tag">L298N H-Bridge</span>
+                <span class="tech-tag">Embedded C/C++</span>
+                <span class="tech-tag">PWM Speed Tuning</span>
+              </div>
+            </div>
+
+            <div class="project-actions">
+              <button class="project-btn-detail" data-project="rc-car">
+                <span>View Architecture & Details</span>
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                  <line x1="5" y1="12" x2="19" y2="12"></line>
+                  <polyline points="12 5 19 12 12 19"></polyline>
+                </svg>
+              </button>
+            </div>
+          </div>
+
+          <!-- Project 2: Microcontroller Telemetry & Ambient Sensor Hub -->
+          <div class="glass-card project-card" data-category="sensors">
+            <div class="project-top">
+              <span class="project-category-tag">Sensors & Instruments</span>
+              <div class="project-status-badge">
+                <span class="status-indicator-dot"></span>
+                <span>Active Prototype</span>
+              </div>
+            </div>
+
+            <h3 class="project-title">Ambient Telemetry & Sensor Monitor</h3>
+            <p class="project-desc">
+              A real-time environmental instrumentation station reading temperature and humidity via digital sensors. Displays formatted telemetry across a 2-wire I2C alphanumeric LCD display, paired with threshold warning indicators and serial laboratory streaming.
+            </p>
+
+            <div class="project-tech-wrapper">
+              <div class="tech-label">Hardware & Technologies Used:</div>
+              <div class="project-tech-tags">
+                <span class="tech-tag hardware-tag">Arduino Microcontroller</span>
+                <span class="tech-tag hardware-tag">DHT11 / DHT22 Sensor</span>
+                <span class="tech-tag hardware-tag">I2C 16x2 LCD</span>
+                <span class="tech-tag">Embedded C</span>
+                <span class="tech-tag">I2C Protocol</span>
+              </div>
+            </div>
+
+            <div class="project-actions">
+              <button class="project-btn-detail" data-project="telemetry-hub">
+                <span>View Architecture & Details</span>
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                  <line x1="5" y1="12" x2="19" y2="12"></line>
+                  <polyline points="12 5 19 12 12 19"></polyline>
+                </svg>
+              </button>
+            </div>
+          </div>
+
+          <!-- Project 3: Interactive Digital Logic & Gate Simulator -->
+          <div class="glass-card project-card" data-category="circuits">
+            <div class="project-top">
+              <span class="project-category-tag">Circuits & Logic</span>
+              <div class="project-status-badge">
+                <span class="status-indicator-dot"></span>
+                <span>Interactive Web Tool</span>
+              </div>
+            </div>
+
+            <h3 class="project-title">Interactive Digital Logic Gate Simulator</h3>
+            <p class="project-desc">
+              A web-based digital electronics sandbox built to simulate fundamental Boolean logic gates (AND, OR, NOT, NAND, XOR). Provides interactive input toggles, truth table generation, and voltage propagation visualization to reinforce digital electronics coursework.
+            </p>
+
+            <div class="project-tech-wrapper">
+              <div class="tech-label">Hardware & Technologies Used:</div>
+              <div class="project-tech-tags">
+                <span class="tech-tag">Digital Logic Theory</span>
+                <span class="tech-tag">Boolean Algebra</span>
+                <span class="tech-tag">Vanilla JavaScript</span>
+                <span class="tech-tag">SVG Circuit Symbols</span>
+                <span class="tech-tag">CSS3</span>
+              </div>
+            </div>
+
+            <div class="project-actions">
+              <button class="project-btn-detail" data-project="logic-sandbox">
+                <span>View Architecture & Details</span>
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                  <line x1="5" y1="12" x2="19" y2="12"></line>
+                  <polyline points="12 5 19 12 12 19"></polyline>
+                </svg>
+              </button>
+            </div>
+          </div>
+
+          <!-- Project 4: Autonomous Line-Follower Concept -->
+          <div class="glass-card project-card" data-category="embedded">
+            <div class="project-top">
+              <span class="project-category-tag">Embedded Robotics</span>
+              <div class="project-status-badge">
+                <span class="status-indicator-dot"></span>
+                <span>Concept & Lab Setup</span>
+              </div>
+            </div>
+
+            <h3 class="project-title">Infrared Array Line-Following Vehicle Concept</h3>
+            <p class="project-desc">
+              A directional robotics prototype exploring optical reflectance differential steering. Dual TCRT5000 infrared reflectance sensors distinguish high-contrast boundary tracks to modulate PWM steering motors through an LM393 comparator setup.
+            </p>
+
+            <div class="project-tech-wrapper">
+              <div class="tech-label">Hardware & Technologies Used:</div>
+              <div class="project-tech-tags">
+                <span class="tech-tag hardware-tag">TCRT5000 IR Modules</span>
+                <span class="tech-tag hardware-tag">LM393 Comparator</span>
+                <span class="tech-tag hardware-tag">DC Geared Motors</span>
+                <span class="tech-tag">Embedded C</span>
+                <span class="tech-tag">Differential Steering</span>
+              </div>
+            </div>
+
+            <div class="project-actions">
+              <button class="project-btn-detail" data-project="line-follower">
+                <span>View Architecture & Details</span>
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                  <line x1="5" y1="12" x2="19" y2="12"></line>
+                  <polyline points="12 5 19 12 12 19"></polyline>
+                </svg>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Project Technical Modal Dialog -->
+    <div class="modal-overlay" id="projectModal" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+      <div class="modal-container">
+        <button class="modal-close-btn" id="modalCloseBtn" aria-label="Close modal window">&times;</button>
+        <span class="modal-badge" id="modalCategory">// Embedded Robotics</span>
+        <h3 class="modal-title" id="modalTitle">Project Title</h3>
+
+        <div class="modal-body">
+          <div>
+            <h4 class="modal-block-title">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <circle cx="12" cy="12" r="10"></circle>
+                <line x1="12" y1="16" x2="12" y2="12"></line>
+                <line x1="12" y1="8" x2="12.01" y2="8"></line>
+              </svg>
+              System Architecture & Overview
+            </h4>
+            <p id="modalOverview">Overview description text.</p>
+          </div>
+
+          <div>
+            <h4 class="modal-block-title">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <rect x="2" y="7" width="20" height="14" rx="2" ry="2"></rect>
+                <path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"></path>
+              </svg>
+              Hardware Bill of Materials (BOM)
+            </h4>
+            <div id="modalBom" style="white-space: pre-line; font-family: var(--font-mono); font-size: 0.82rem; background: rgba(0,0,0,0.3); padding: 0.75rem 1rem; border-radius: var(--radius-sm); border: 1px solid var(--border-subtle);"></div>
+          </div>
+
+          <div>
+            <h4 class="modal-block-title">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <polyline points="16 18 22 12 16 6"></polyline>
+                <polyline points="8 6 2 12 8 18"></polyline>
+              </svg>
+              Embedded Logic & Algorithmic Core
+            </h4>
+            <pre class="modal-code-snippet"><code id="modalCode">Code snippet</code></pre>
+          </div>
+
+          <div>
+            <h4 class="modal-block-title">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+                <polyline points="22 4 12 14.01 9 11.01"></polyline>
+              </svg>
+              Key Engineering Insights & Takeaways
+            </h4>
+            <p id="modalLearnings">Learnings description.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ==========================================================================
+         EDUCATION & ACADEMIC JOURNEY SECTION
+         ========================================================================== -->
+    <section class="education-section" id="education">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Academic Trajectory</span>
+          <h2 class="section-title">
+            Education & <span class="gradient-text">Future Milestones</span>
+          </h2>
+          <p class="section-subtitle">
+            A chronicle of my foundational schooling, current engineering curriculum at CIT Chennai, and aspirations toward international research and semiconductor technology.
+          </p>
+        </div>
+
+        <div class="timeline-wrapper">
+          <!-- Item 1: CIT Chennai -->
+          <div class="timeline-item">
+            <div class="timeline-marker"></div>
+            <div class="glass-card timeline-content">
+              <span class="timeline-period">2026 – PRESENT // CURRENT DEGREE</span>
+              <h3 class="timeline-institution">Chennai Institute of Technology (CIT)</h3>
+              <div class="timeline-degree">Bachelor of Engineering (B.E.) in Electronics and Communication Engineering</div>
+              <p class="timeline-desc">
+                Currently in my first year, actively immersing in foundational engineering subjects including Circuit Theory, Electronic Devices, Basic Electrical Engineering, Engineering Physics, and C Programming. Actively participating in campus hardware laboratories, prototyping clubs, and technical symposiums.
+              </p>
+              <div class="timeline-highlights">
+                <span class="timeline-chip">First-Year Undergraduate</span>
+                <span class="timeline-chip">Circuit & Device Labs</span>
+                <span class="timeline-chip">Embedded Hardware Focus</span>
+                <span class="timeline-chip">Chennai, India</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Item 2: Velammal Vidhyashram -->
+          <div class="timeline-item">
+            <div class="timeline-marker"></div>
+            <div class="glass-card timeline-content">
+              <span class="timeline-period">PREVIOUS SCHOOLING // HIGHER SECONDARY</span>
+              <h3 class="timeline-institution">Velammal Vidhyashram</h3>
+              <div class="timeline-degree">Senior Secondary & School Education (CBSE / State Curriculum)</div>
+              <p class="timeline-desc">
+                Built an exceptional foundation in Physics, Chemistry, and Advanced Mathematics. It was here that my curiosity for electrical circuits, semiconductor diode physics, and computational thinking initially sparked, propelling me toward pursuing Electronics and Communication Engineering.
+              </p>
+              <div class="timeline-highlights">
+                <span class="timeline-chip">Physics & Mathematics Core</span>
+                <span class="timeline-chip">Science Project Exhibitions</span>
+                <span class="timeline-chip">Academic Excellence</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Item 3: Future Research Aspirations -->
+          <div class="timeline-item">
+            <div class="timeline-marker"></div>
+            <div class="glass-card timeline-content" style="border-color: var(--border-violet);">
+              <span class="timeline-period" style="color: var(--accent-violet-light);">TARGET HORIZON // RESEARCH & HIGHER STUDIES</span>
+              <h3 class="timeline-institution">Advanced Research & Higher Studies Abroad</h3>
+              <div class="timeline-degree">International Research Internships & Graduate Studies in Embedded Hardware / VLSI</div>
+              <p class="timeline-desc">
+                Goal-driven roadmap focused on preparing for competitive international research fellowships and graduate studies abroad. Striving to conduct rigorous research in semiconductor architecture, microcontrollers, and edge AI hardware design.
+              </p>
+              <div class="timeline-highlights">
+                <span class="timeline-chip" style="color: var(--accent-violet-light);">International Internships</span>
+                <span class="timeline-chip" style="color: var(--accent-violet-light);">Semiconductor Technology</span>
+                <span class="timeline-chip" style="color: var(--accent-violet-light);">Higher Studies Abroad</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         CONTACT SECTION
+         ========================================================================== -->
+    <section class="contact-section" id="contact">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Let's Connect</span>
+          <h2 class="section-title">
+            Start a Conversation or <span class="gradient-text">Collaborate</span>
+          </h2>
+          <p class="section-subtitle">
+            Whether you'd like to talk about embedded systems, discuss an engineering project, or share mentorship advice for a first-year ECE student, my inbox is always open.
+          </p>
+        </div>
+
+        <div class="contact-grid">
+          <!-- Left Column: Direct Info Cards -->
+          <div class="contact-details">
+            <p class="contact-intro">
+              I am always eager to connect with fellow engineering students, professors, hardware researchers, and technology mentors worldwide. Feel free to send an email or reach out through my professional links.
+            </p>
+
+            <div class="contact-cards-list">
+              <!-- Email Card with 1-Click Copy -->
+              <div class="glass-card contact-info-card">
+                <div class="contact-card-icon">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                    <polyline points="22,6 12,13 2,6"></polyline>
+                  </svg>
+                </div>
+                <div>
+                  <span class="contact-card-label">Direct Email</span>
+                  <div class="contact-card-value">dhiyashri.cit@gmail.com</div>
+                </div>
+                <button class="copy-btn" id="copyEmailBtn" data-email="dhiyashri.cit@gmail.com" type="button" aria-label="Copy email address to clipboard">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect>
+                    <path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path>
+                  </svg>
+                  <span>Copy</span>
+                </button>
+              </div>
+
+              <!-- Location Card -->
+              <div class="glass-card contact-info-card">
+                <div class="contact-card-icon">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                    <circle cx="12" cy="10" r="3"></circle>
+                  </svg>
+                </div>
+                <div>
+                  <span class="contact-card-label">Current Base</span>
+                  <div class="contact-card-value">Chennai, Tamil Nadu, India</div>
+                </div>
+              </div>
+
+              <!-- College Card -->
+              <div class="glass-card contact-info-card">
+                <div class="contact-card-icon">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M22 10v6M2 10l10-5 10 5-10 5z"></path>
+                    <path d="M6 12v5c3 3 9 3 12 0v-5"></path>
+                  </svg>
+                </div>
+                <div>
+                  <span class="contact-card-label">Academic Campus</span>
+                  <div class="contact-card-value">Chennai Institute of Technology</div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Social Links Row -->
+            <div class="social-links-row">
+              <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="social-badge">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+                </svg>
+                <span>GitHub Profile</span>
+              </a>
+
+              <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" class="social-badge">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
+                  <rect x="2" y="9" width="4" height="12"></rect>
+                  <circle cx="4" cy="4" r="2"></circle>
+                </svg>
+                <span>LinkedIn Profile</span>
+              </a>
+            </div>
+          </div>
+
+          <!-- Right Column: Interactive Contact Form -->
+          <div class="glass-card contact-form-container">
+            <form class="contact-form" id="contactForm" novalidate>
+              <div class="form-group">
+                <label for="senderName" class="form-label">
+                  <span>Your Full Name *</span>
+                  <span class="form-error">Please enter your name</span>
+                </label>
+                <input type="text" id="senderName" class="form-input" placeholder="e.g. Sarah Connor" required>
+              </div>
+
+              <div class="form-group">
+                <label for="senderEmail" class="form-label">
+                  <span>Email Address *</span>
+                  <span class="form-error">Please enter a valid email</span>
+                </label>
+                <input type="email" id="senderEmail" class="form-input" placeholder="e.g. sarah@example.com" required>
+              </div>
+
+              <div class="form-group">
+                <label for="senderSubject" class="form-label">
+                  <span>Subject / Topic *</span>
+                  <span class="form-error">Please enter a subject</span>
+                </label>
+                <input type="text" id="senderSubject" class="form-input" placeholder="e.g. Hardware collaboration / Academic Inquiry" required>
+              </div>
+
+              <div class="form-group">
+                <label for="senderMessage" class="form-label">
+                  <span>Message *</span>
+                  <span class="form-error">Message must be at least 10 characters</span>
+                </label>
+                <textarea id="senderMessage" class="form-textarea" placeholder="Write your message, project idea, or words of encouragement here..." required></textarea>
+              </div>
+
+              <button type="submit" class="btn btn-primary" id="submitBtn" style="width: 100%;">
+                <span>Transmit Message</span>
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                  <line x1="22" y1="2" x2="11" y2="13"></line>
+                  <polygon points="22 2 15 22 11 13 2 9 22 2"></polygon>
+                </svg>
+              </button>
+
+              <!-- Instant Toast Feedback -->
+              <div class="toast-notice" id="contactToast" role="alert"></div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ==========================================================================
+       FOOTER
+       ========================================================================== -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <div class="footer-logo">DHIYASHRI J</div>
+          <p class="footer-tagline">ECE Student &bull; Aspiring Embedded Systems & Semiconductor Engineer</p>
+        </div>
+
+        <a href="#hero" class="footer-back-to-top" id="backToTopBtn">
+          <span>Back to Top</span>
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+            <polyline points="18 15 12 9 6 15"></polyline>
+          </svg>
+        </a>
+      </div>
+
+      <div class="footer-bottom">
+        <div>
+          &copy; 2026 Dhiyashri J. All rights reserved. Chennai Institute of Technology.
+        </div>
+        <div class="footer-credit">
+          Designed with modern <span>HTML5, CSS3 &amp; Vanilla JS</span>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="js/main.js"></script>
+</body>
+</html>
